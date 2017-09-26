@@ -1,5 +1,5 @@
 ### Materials
-* [__Lecture slides__] - TODO
+* [__Lecture slides__] - [here](https://yadi.sk/i/54qWKtDB3NDeuh)
 * Russian materials:
  - Recap of value iteration & Q_learning - [video](https://yadi.sk/i/I7XcP6vU3ExNrT)
  - Q-learning seminar - [video](https://yadi.sk/i/XbqNQmjm3ExNsq)
@@ -14,9 +14,11 @@
 ### More materials
 * Eligibility traces from Sutton's book - [url](http://incompleteideas.net/sutton/book/ebook/node72.html)
 
-### Homework
+## Assignment
 
-The first part of today's seminar will happen outside <s>the box</s> jupyter notebook.
+You will have to get through 
+* __either__ `seminar_main` __or__ `seminar_alternative`
+* `homework`
 
 ### ./seminar_main
 _this assignment borrows code from awesome [cs188](http://ai.berkeley.edu/project_overview.html)_
@@ -38,8 +40,14 @@ python pacman.py -p PacmanQAgent -x 5000 -n 5010 -l smallGrid # example
 * other ./run* files are mostly for your amusement. 
   * ./run_pacman.sh will need more epochs to converge, see [comments](https://github.com/yandexdataschool/Practical_RL/blob/fall17/week3/seminar_main/run_pacman.sh)
   * on windows, just copy the type `python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid` in cmd from assignemnt dir
-(YSDA/HSE) Please submit only qlearningAgents.py file and include a brief text report as comments in it.
+(HSE) Please submit only qlearningAgents.py file and include a brief text report as comments in it.
+
+You can also try [TODO URL here] as a bonus.
 
 ### ./seminar_alternative
 
 You'll have to implement qlearning.py just like in main seminar, but in ./seminar_alternative folder. After you're done with it, open the seminar notebook and follow instructions from there.
+
+### ./homework
+
+Using q-learning implementation from either of previous seminars, learn to apply Q-learnig and SARSA with greater sample efficiency.
